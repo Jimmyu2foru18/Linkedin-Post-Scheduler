@@ -1,0 +1,15 @@
+[Unit]
+Description=LinkedIn Post Automation
+After=network.target mysql.service
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/linkedin_automation
+Environment=PYTHONPATH=/home/ubuntu/linkedin_automation
+ExecStart=/usr/bin/python3 main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target 

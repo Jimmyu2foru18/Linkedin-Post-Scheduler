@@ -1,0 +1,6 @@
+mysql-connector-python
+python-dotenv
+requests
+schedule
+selenium
+webdriver_manager 

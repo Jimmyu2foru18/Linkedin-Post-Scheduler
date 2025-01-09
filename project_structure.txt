@@ -1,0 +1,13 @@
+linkedin_automation/
+├── config/
+│   └── config.py
+├── database/
+│   └── db_manager.py
+├── linkedin/
+│   └── linkedin_api.py
+├── scheduler/
+│   └── post_scheduler.py
+├── utils/
+│   └── logger.py
+├── requirements.txt
+└── main.py 

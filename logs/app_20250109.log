@@ -1,0 +1,5 @@
+2025-01-09 10:53:17,695 - utils.logger - INFO - Initializing application components...
+2025-01-09 10:53:17,768 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-01-09 10:53:17,769 - mysql.connector - INFO - plugin_name: mysql_native_password
+2025-01-09 10:53:17,769 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-01-09 10:53:17,772 - utils.logger - ERROR - Application failed to start: 1045 (28000): Access denied for user 'linkedin_user'@'localhost' (using password: YES)
